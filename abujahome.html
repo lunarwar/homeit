@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    img {
+        width: 300px;
+        height: auto;
+    }
+    h1 {
+        color: white;
+    }
+    .jumbotron{
+        text-align: center;
+        background-image: url(p1.jpg); background-repeat: repeat;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="bird.jpg" alt="logo" style="width:10px;"> ABUJAHome
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">BUY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SELL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+            </li>
+        </ul>
+        <form class="form-inline" style="position: absolute;right: 0px; padding:10px">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+            <a class="nav-link" href="#">SIGN IN</a>
+        </form>
+    </nav>
+
+    <div class="jumbotron">
+        <h1> Smarter, faster home search </h1>
+        <div class="container" style="background-color:transparent">
+            <br>
+            <form class="container">
+                <div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option>BUY</option>
+                        <option>SELL</option>
+                    </select>
+                </div>
+                <input type="text" class="form-control" id="search"
+                    placeholder="Enter a city, neighbourhood, address, MLS® number or school" name="search">
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="padding-left: 70px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="p3.jpg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p2.jpeg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p3.jpg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p2.jpeg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" style="padding-left: 70px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="p3.jpg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p2.jpeg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p3.jpg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="p2.jpeg">
+                <p>NGN 7.8M <br> 3456 Maitama </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
